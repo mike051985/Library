@@ -1,6 +1,6 @@
 // Book Class: Represents a Book
 class Book {
-    constructor(title, author,pages, isbn, status) {
+    constructor(title, author, pages, isbn, status) {
         this.title = title;
         this.author = author;
         this.pages = pages;
