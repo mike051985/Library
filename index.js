@@ -99,7 +99,7 @@ document.querySelector("#book-form").addEventListener("submit", (e) => {
         alert("Please fill in all fields");
     } else {
         // Instantiate book
-        const book = new Book(title, author, pages, isbn, [(status !== "")? "Already read" : "Not yet read"]);
+        const book = new Book(title, author, pages, isbn, [status !== "" ? "Already read" : "Not yet read"]);
 
         //Add book
         UI.addBookToList(book);
